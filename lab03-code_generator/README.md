@@ -12,5 +12,5 @@ Local Judge (Optional): `pip3 install local-judge`
 `java -jar jasmin.jar hw3.j`
 `java Main`  
 
-> 作者：成功大學資訊工程學系113級 鄭鈞智  
-> 最後編輯： 2023/07/26 15:06
+> Author：成功大學資訊工程學系113級 鄭鈞智  
+> Last Edit Time： 2023/07/26 15:06
