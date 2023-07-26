@@ -1,0 +1,73 @@
+> Create symbol table (scope level 0)
+func: main
+> Insert `main` (addr: -1) to scope level 0
+> Create symbol table (scope level 1)
+INT_LIT 2
+INT_LIT 3
+INT_LIT 0
+INT_LIT 2
+INT_LIT 3
+> Insert `state` (addr: 0) to scope level 1
+INT_LIT 0
+INT_LIT 0
+PRINTLN array
+INT_LIT 0
+INT_LIT 1
+PRINTLN array
+INT_LIT 1
+INT_LIT 0
+PRINTLN array
+INT_LIT 1
+INT_LIT 1
+PRINTLN array
+INT_LIT 2
+INT_LIT 0
+PRINTLN array
+INT_LIT 2
+INT_LIT 1
+PRINTLN array
+INT_LIT 0
+INT_LIT 0
+INT_LIT 0
+INT_LIT 0
+INT_LIT 1
+INT_LIT 1
+INT_LIT 1
+INT_LIT 0
+INT_LIT 2
+INT_LIT 1
+INT_LIT 1
+INT_LIT 3
+INT_LIT 2
+INT_LIT 0
+INT_LIT 4
+INT_LIT 2
+INT_LIT 1
+INT_LIT 5
+INT_LIT 0
+INT_LIT 0
+PRINTLN array
+INT_LIT 0
+INT_LIT 1
+PRINTLN array
+INT_LIT 1
+INT_LIT 0
+PRINTLN array
+INT_LIT 1
+INT_LIT 1
+PRINTLN array
+INT_LIT 2
+INT_LIT 0
+PRINTLN array
+INT_LIT 2
+INT_LIT 1
+PRINTLN array
+
+> Dump symbol table (scope level: 1)
+Index     Name      Mut       Type      Addr      Lineno    Func_sig  
+0         state     1         array     0         2         -         
+
+> Dump symbol table (scope level: 0)
+Index     Name      Mut       Type      Addr      Lineno    Func_sig  
+0         main      -1        func      -1        1         (V)V      
+Total lines: 21

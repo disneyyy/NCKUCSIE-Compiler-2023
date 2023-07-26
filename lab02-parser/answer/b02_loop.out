@@ -1,0 +1,35 @@
+> Create symbol table (scope level 0)
+func: main
+> Insert `main` (addr: -1) to scope level 0
+> Create symbol table (scope level 1)
+INT_LIT 0
+> Insert `counter` (addr: 0) to scope level 1
+> Create symbol table (scope level 2)
+INT_LIT 1
+ADD_ASSIGN
+IDENT (name=counter, address=0)
+INT_LIT 10
+EQL
+> Create symbol table (scope level 3)
+STRING_LIT "loop break"
+
+> Dump symbol table (scope level: 3)
+Index     Name      Mut       Type      Addr      Lineno    Func_sig  
+
+> Dump symbol table (scope level: 2)
+Index     Name      Mut       Type      Addr      Lineno    Func_sig  
+> Insert `result` (addr: 1) to scope level 1
+IDENT (name=result, address=1)
+PRINTLN str
+IDENT (name=counter, address=0)
+PRINTLN i32
+
+> Dump symbol table (scope level: 1)
+Index     Name      Mut       Type      Addr      Lineno    Func_sig  
+0         counter   1         i32       0         3         -         
+1         result    0         str       1         11        -         
+
+> Dump symbol table (scope level: 0)
+Index     Name      Mut       Type      Addr      Lineno    Func_sig  
+0         main      -1        func      -1        1         (V)V      
+Total lines: 15
